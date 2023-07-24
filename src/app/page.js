@@ -17,8 +17,8 @@ export default function RandomUserPage() {
       setFirstLoad(false)
       return;
     }
-    const strUsers = JSON.stringify(genAmount);
-    localStorage.setItem("genAmount",strUsers);
+    const strAmount = JSON.stringify(genAmount);
+    localStorage.setItem("genAmount",strAmount);
 
   }, [genAmount]);
 
